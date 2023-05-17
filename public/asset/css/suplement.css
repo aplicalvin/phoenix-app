@@ -1,0 +1,11 @@
+.gmaps-bang {
+    width: 100%;
+    height: 300px;
+}
+
+@media screen and (min-width: 1024) {
+    .gmaps-bang {
+        width: 600px;
+        height: 450px;
+    }
+}
