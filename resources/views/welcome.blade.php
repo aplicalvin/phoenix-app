@@ -41,7 +41,7 @@
     {{-- Service Section Done --}}
 
     {{-- Contact Pages Start --}}
-    <div class="py-10 px-10 bg-slate-800">
+    <div class="py-10 px-10 bg-slate-800" id="contact">
         <h1 class="font-bold text-gray-100 text-4xl text-center">Hubungi Kami</h1>
         <div class="grid lg:flex gap-8 my-8 mx-auto">
             {{-- Gmaps. --}}
