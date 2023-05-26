@@ -21,6 +21,14 @@ Route::get('/services', function () {
     return view('service');
 });
 
+Route::get('/service/detail', function () {
+    return view('serviceItem');
+});
+
 Route::get('/product', function () {
     return view('product');
+});
+
+Route::get('/product/detail', function () {
+    return view('productItem');
 });
