@@ -38,11 +38,11 @@ Route::get('/admin', function () {
 });
 
 Route::get('/admin/product', function () {
-    return view('admin/product');
+    return view('admin/admProduct');
 });
 
 Route::get('/admin/service', function () {
-    return view('admin/service');
+    return view('admin/admService');
 });
 
 Route::get('/logout', function () {
