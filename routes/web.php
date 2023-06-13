@@ -32,3 +32,19 @@ Route::get('/product', function () {
 Route::get('/product/detail', function () {
     return view('productItem');
 });
+
+Route::get('/admin', function () {
+    return view('admin/dashboard');
+});
+
+Route::get('/admin/product', function () {
+    return view('admin/product');
+});
+
+Route::get('/admin/service', function () {
+    return view('admin/service');
+});
+
+Route::get('/logout', function () {
+    return view('admin/dashboard');
+});
