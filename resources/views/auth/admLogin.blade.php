@@ -1,5 +1,5 @@
 <x-layout>
-    <div class="grid lg:flex w-full h-screen" style="border: 1px solid red">
+    <div class="grid lg:flex w-full h-screen" >
         <div class="grid w-full gap-32 lg:w-1/2 px-4 pt-3 pb-8 lg:px-16 lg:py-12">
             {{-- content here --}}
             <div class="flex items-center gap-2">
