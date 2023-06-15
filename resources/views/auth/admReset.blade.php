@@ -7,7 +7,7 @@
                     src="{{ asset('asset/logoFixed.png') }}"
                     class="w-8"
                     alt=""
-                />
+                /> 
                 <h1 class="text-indigo-600 text-xl font-bold">Phoenix</h1>
             </div>
             {{-- form --}}
@@ -17,10 +17,10 @@
                         <h1
                             class="text-2xl md:text-4xl text-stone-900 font-bold"
                         >
-                            Selamat Datang,
+                            Reset Password.
                         </h1>
                         <p class="text-base text-stone-700">
-                            Masuk untuk dapat mengakses halaman login
+                            Masukkan password lama dan ubah dengan password baru
                         </p>
                     </div>
                     <div>
@@ -28,27 +28,39 @@
                             <div class="grid gap-2">
                                 <div class="">
                                     <label
-                                        for="username"
+                                        for="oldpassword"
                                         class="block mb-2 text-sm font-medium text-stone-900"
-                                        >Username</label
+                                        >Masukkan Password Lama</label
                                     >
                                     <input
-                                        type="username"
-                                        id="username"
+                                        type="password"
+                                        id="oldpassword"
                                         class="bg-stone-50 border border-stone-300 text-stone-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                                        placeholder="Masukkan Username Anda"
                                         required
                                     />
                                 </div>
                                 <div class="">
                                     <label
-                                        for="password"
+                                        for="newpassword"
                                         class="block mb-2 text-sm font-medium text-stone-900"
-                                        >Password</label
+                                        >Ketik Password Baru</label
                                     >
                                     <input
                                         type="password"
-                                        id="password"
+                                        id="newpassword"
+                                        class="bg-stone-50 border border-stone-300 text-stone-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                                        required
+                                    />
+                                </div>
+                                <div class="">
+                                    <label
+                                        for="retypepassword"
+                                        class="block mb-2 text-sm font-medium text-stone-900"
+                                        >Ketik Password Baru sekali lagi</label
+                                    >
+                                    <input
+                                        type="password"
+                                        id="retypepassword"
                                         class="bg-stone-50 border border-stone-300 text-stone-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                                         required
                                     />
@@ -61,8 +73,8 @@
                             >
                                 Masuk
                             </button>
-                            <div class="">
-                                <a href="/resetpw" class=" float-right underline text-blue-700 hover:text-blue-800">Lupa Password?</a>
+                            <div>
+                                <a href="/admin/resertpw"></a>
                             </div>
                         </form>
                     </div>

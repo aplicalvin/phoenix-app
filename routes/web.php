@@ -67,6 +67,10 @@ Route::get('/login', function () {
     return view('auth/admLogin');
 });
 
+Route::get('/resetpw', function () {
+    return view('auth/admReset');
+});
+
 Route::get('/logout', function () {
     return view('admin/dashboard');
 });
