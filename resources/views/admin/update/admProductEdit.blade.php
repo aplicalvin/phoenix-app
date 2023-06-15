@@ -1,6 +1,6 @@
 <x-layout>
     {{-- Atasan --}}
-    <div class="flex gap-4 mx-8 my-4" style="border: 1px solid red">
+    <div class="flex gap-4 mx-8 my-4" >
         <a href="{{ url()->previous() }}">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
