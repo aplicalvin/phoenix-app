@@ -61,6 +61,12 @@ Route::get('/admin/service/edit', function () {
     return view('admin/update/admServiceEdit');
 });
 
+// Authentification
+
+Route::get('/login', function () {
+    return view('auth/admLogin');
+});
+
 Route::get('/logout', function () {
     return view('admin/dashboard');
 });
