@@ -6,7 +6,7 @@
         <p class="mb-3 font-normal text-gray-700">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
     </div>
     <div class="flex my-2 mx-2 max-w-full gap-2">
-            <a href="" class="bg-white border-blue-500 border text-gray-700 max-w-full w-1/2 py-1.5 rounded-md hover:bg-blue-700 hover:text-white text-center">Edit</a>
+            <a href="/admin/product/edit" class="bg-white border-blue-500 border text-gray-700 max-w-full w-1/2 py-1.5 rounded-md hover:bg-blue-700 hover:text-white text-center">Edit</a>
             <a href="" class="bg-red-700 text-white w-1/2  py-1.5 rounded-md hover:bg-red-800 text-center">Delete</a>
         </div>
 </div>

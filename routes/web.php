@@ -41,8 +41,24 @@ Route::get('/admin/product', function () {
     return view('admin/admProduct');
 });
 
+Route::get('/admin/product/add', function () {
+    return view('admin/create/admProductAdd');
+});
+
+Route::get('/admin/product/edit', function () {
+    return view('admin/update/admProductEdit');
+});
+
 Route::get('/admin/service', function () {
     return view('admin/admService');
+});
+
+Route::get('/admin/service/add', function () {
+    return view('admin/create/admServiceAdd');
+});
+
+Route::get('/admin/service/edit', function () {
+    return view('admin/update/admServiceEdit');
 });
 
 Route::get('/logout', function () {

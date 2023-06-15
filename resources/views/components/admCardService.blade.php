@@ -24,7 +24,7 @@
         </p>
             <div class="flex my-0 mx-2 max-w-full gap-2">
                 <a
-                    href=""
+                    href="/admin/service/edit"
                     class="bg-inherit border-blue-500 border text-gray-700 max-w-full w-1/2 py-1.5 rounded-md hover:bg-blue-700 hover:text-white text-center"
                     >Edit</a
                 >
